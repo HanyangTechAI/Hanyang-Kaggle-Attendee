@@ -9,4 +9,5 @@ class SubmittedApp:
         return input_tensor
 
     def metric(self, inferred_tensor: torch.Tensor, ground_truth: torch.Tensor) -> torch.Tensor:
-        return (inferred_tensor.argmax(dim=1) == ground_truth).sum().item() / inferred_tensor.size(0)
+        return torch.mean((inferred_tensor.argmax(dim=1) == ground_truth).float(), dim=-1)
+

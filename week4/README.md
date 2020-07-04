@@ -27,7 +27,7 @@ images, labels = mndata.load_training()
 체점에 사용되는 app.py - run 메서드의 input 과 output 텐서의 shape 입니다. 다음을 고려하여 app.py 의 run 메서드를 작성해주십시오. 다음 포맷과 다른 shape 을 반환할 경우 0점 처리 됩니다.
 
 - **INPUT Shape**
-	```[batch_size(32), sequence_length(image_width=256), image_height(256)]```
+	```[batch_size(32), image_dim(width(28)*height(28)=784)]```
 
 - **OUTPUT Shape**
 	```[batch_size(32), num_classes(10)]```

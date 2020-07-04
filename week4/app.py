@@ -10,6 +10,7 @@ class SubmittedApp:
         :param input_tensor: (torch.Tensor) [batchsize, image_dim(784)]
         :return: (torch.Tensor) [batchsize, n_classes(10)]
         """
+        # RUN 메서드를 작성하시오
         return input_tensor
 
     @staticmethod

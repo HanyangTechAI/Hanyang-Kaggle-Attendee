@@ -33,5 +33,5 @@ images, labels = mndata.load_training()
 
 ## 체점 기준
 - 체점 Metric 은 정확도를 사용합니다. (app.py 의 metric() 메서드 참고)
-- 평균 정확도가 80% 이상의 모델을 제작하십시오
+- 평균 정확도가 96% 이상의 모델을 제작하십시오
 

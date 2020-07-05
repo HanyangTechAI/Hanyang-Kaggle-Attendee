@@ -11,13 +11,7 @@ CIFAR-10은 다음의 코드를 이용하여 받을 수 있습니다.
 
 ```
 train_dataset = CIFAR10(root='./data', train=True, download=True, 
-    transform=transforms.Compose([
-        transforms.ToTensor(),
-        transforms.Normalize(
-            (0.4914, 0.4822, 0.4465),
-            (0.2023, 0.1994, 0.2010)
-        )
-    ]))
+    transform=transforms.ToTensor())
 ```
 
 ## Data Format 설명

@@ -11,7 +11,7 @@ class SubmittedApp:
         :return: (torch.Tensor) [batchsize, n_classes(10)]
         """
         # RUN 메서드를 작성하시오
-        return input_tensor
+        raise NotImplementedError()
 
     @staticmethod
     def metric(inferred_tensor: torch.Tensor, ground_truth: torch.Tensor) -> torch.Tensor:

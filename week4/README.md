@@ -8,20 +8,27 @@ MNIST 데이터셋을 CNN 이 아닌 RNN 으로 Classification 해봅시다.
 다음 링크를 통해 데이터셋을 다운받아주세요. 직접 Dataloader 를 사용하여 학습에 학습에 사용하십시오. 학습에 사용되는 input과 output 텐서의 shape 은 app.py 의 run 과 metric 메서드의 documentation을 참고하십시오.
 
 Dataset 은 Yann lecun 교수님의 ubyte 형식의 mnist 데이터셋입니다. 
-
-- Train Image 다운로드 링크: [다운로드](http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz)
-- Train Label 다운로드 링크: [다운로드](http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz)
-- Test Image 다운로드 링크: [다운로드](http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz)
-- Test Label 다운로드 링크: [다운로드](http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz)
-
-압축 풀기 후 [python mnist](https://pypi.org/project/python-mnist/) 파이선 모듈을 이용해 데이터를 사용하시면 됩니다.
+MNIST 데이터셋은 torchvision 모듈을 이용해 사용해도 됩니다.
 
 **예시 코드**
 ```python
-from mnist import MNIST
-mndata = MNIST('./dir_with_mnist_data_files')
-images, labels = mndata.load_training()
+import torchvision.datasets as dataset
+import torchvision.transforms as transforms
+
+data = datset.MNIST('[ROOT_DIRECTORY]', train=True, download=True)
+
+# image: PIL.Image, image data
+# label: int, label
+image, label = data[0]
+
+# image and label to torch.Tensor
+# torch.Tensor, shape: [image_dim(784)]
+image = transforms.ToTensor()(image).squeeze(0).view(-1)
+# torch.LongTensor, shape: []
+label = torch.LongTensor([label]).squeeze(-1)
 ```
+
+자세한 설명은 공식 Documentation 참고: [Documentation link](https://pytorch.org/docs/stable/torchvision/datasets.html#torchvision.datasets.MNIST)
 
 ## Data Format 설명
 체점에 사용되는 app.py - run 메서드의 input 과 output 텐서의 shape 입니다. 다음을 고려하여 app.py 의 run 메서드를 작성해주십시오. 다음 포맷과 다른 shape 을 반환할 경우 0점 처리 됩니다.

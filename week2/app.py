@@ -6,8 +6,8 @@ class SubmittedApp:
 
     def run(input_tensor: torch.Tensor) -> torch.Tensor:
         """Main Run Method for scoring system
-        :param input_tensor: (torch.Tensor) [batchsize, channel(3), width, height]
-        :return: (torch.Tensor) [batchsize, channel(3), width, height]
+        :param input_tensor: (torch.Tensor) [batchsize, n_classes(3)]
+        :return: (torch.Tensor) [batchsize, logit(3)]
         """
         return input_tensor
 

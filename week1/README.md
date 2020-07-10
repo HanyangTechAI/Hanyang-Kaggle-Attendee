@@ -23,9 +23,9 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-iris = pd.open_csv("weight-height.csv")
+data = pd.open_csv("weight-height.csv")
 
-X, y =  iris['Height'], iris.target['Weight']
+X, y =  data['Height'], data['Weight']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 ```
 
@@ -38,4 +38,4 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 ## 채점 기준
 - metric은 accuracy를 사용합니다. (app.py의 metric() 메소드 참고)
-- accuracy가 80% 이상이어야 합니다.
+- accuracy가 70% 이상이어야 합니다.

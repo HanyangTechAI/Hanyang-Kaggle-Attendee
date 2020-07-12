@@ -47,4 +47,4 @@ label = torch.LongTensor([label]).squeeze(-1)
 
 ## 채점 기준
 - 채점 Metric 은 정확도를 사용합니다. (app.py 의 metric() 메서드 참고)
-- 평균 정확도가 80% 이상의 모델을 제작하십시오
+- 평균 정확도가 0.8 이상의 모델을 제작하십시오

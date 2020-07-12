@@ -16,6 +16,11 @@
 
 하나를 도와 붓꽃의 품종을 분류할 수 있는 인공지능을 만들어 보자!
 
+## 강의 영상  
+[07. Wide and Deep](https://www.youtube.com/watch?v=Mf8jna42p2M&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=7)  
+[08. Pytorch Dataloader](https://www.youtube.com/watch?v=zN49HdDxHi8&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=8)  
+[09. Softmax Classifier](https://www.youtube.com/watch?v=lvNdl7yg4Pg&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=9)  
+
 ## Dataset
 Dataset은 [Iris Species](https://www.kaggle.com/uciml/iris)을 사용합니다.  
 

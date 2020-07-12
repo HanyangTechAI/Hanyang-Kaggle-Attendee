@@ -9,7 +9,7 @@
 하나는 평소 과학적으로 분석하는 것을 좋아하여 꽃의 다양한 정보를 수집했다. 수집한 정보는 다음과 같다. 
 |Column 명|의미|
 |:-----------:|:-------------:|
-|SepalLengthCm|꽃받침의 길이(cm|
+|SepalLengthCm|꽃받침의 길이(cm)|
 |SepalWidthCm|꽃받침의 너비(cm)|
 |PetalLengthCm|꽃잎의 길이(cm)|
 |PetalWidthCm|꽃잎의 너비(cm)|

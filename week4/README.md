@@ -7,8 +7,8 @@ MNIST 데이터셋을 CNN 이 아닌 RNN 으로 Classification 해봅시다.
 기존에는 [batch_size, image_dim(width*height)] shape 의 이미지를 2-D Convolution 을 이용해 분류를 하셨다면, 이미지의 width 를 sequence 라고 생각하고(shape: [batch_size(32), sequence_length(image_width=256), image_height(256)]) RNN 을 이용하여 이미지를 분류해보세요
 
 ## 강의 영상
-- [https://www.youtube.com/watch?v=ogZi5oIo4fI&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=12](RNN1-Basics)
-- [https://www.youtube.com/watch?v=1vGOQAel2yU&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=13](RNN2-Classification)
+- [RNN1-Basics](https://www.youtube.com/watch?v=ogZi5oIo4fI&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=12)
+- [RNN2-Classifications](https://www.youtube.com/watch?v=1vGOQAel2yU&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=13)
 
 ## Dataset 다운로드 링크
 다음 링크를 통해 데이터셋을 다운받아주세요. 직접 Dataloader 를 사용하여 학습에 학습에 사용하십시오. 학습에 사용되는 input과 output 텐서의 shape 은 app.py 의 run 과 metric 메서드의 documentation을 참고하십시오.

@@ -15,7 +15,7 @@ class SubmittedApp:
         """Classification Accuracy
         example)
         inferred_tensor: [[0,0,1], [0,1,0]]
-        ground_truth: [3, 1]
+        ground_truth: [2, 0]
         return: 0.5
         :param inferred_tensor: (torch.Tensor) [batch_size, n_classes(3)], inferred logits
         :param ground_truth:  (torch.LongTensor) [batch_size], ground truth labels

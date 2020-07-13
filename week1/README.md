@@ -32,7 +32,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 ## Data Format 설명
 채점에 사용되는 app.py - run 메소드의 input과 output 텐서의 shape는 다음과 같습니다.
 - **Input Shape** [batch_size, height(1)]
-- **Output Shape** [batch_size, logit(1)]
+- **Output Shape** [batch_size, logit(3)]
 
 *반드시 상기된 형식을 준수해주세요. 형식이 다른 경우 0점 처리됩니다.*
 

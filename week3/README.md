@@ -3,6 +3,10 @@
 ## 문제 설명
 하리(**하**이**리**온)는 오랜만에 추억의 사진을 꺼내보았는데... 맙소사! 사진이 JPG(Jayeon Punghwa Graphic) 포맷으로 돼있어 [디지털 풍화](https://namu.wiki/w/%EB%94%94%EC%A7%80%ED%84%B8%20%ED%92%8D%ED%99%94)가 일어났다. 덕분에 사진 속의 물체가 어떤 것인지 전혀 구분을 할 수 없다. 하리를 도와 사진 속 물체가 무엇인지 확인하는 인공지능을 만들어보자!
 
+## 강의영상
+- [Basic CNN](https://www.youtube.com/watch?v=LgFNRIFxuUo&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=10)
+- [Advanced CNN](https://www.youtube.com/watch?v=LgFNRIFxuUo&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=11)
+
 ## Dataset
 Dataset은 CIFAR-10을 사용합니다. 하지만 이미지에 임의의 노이즈가 섞여있습니다.  
 ![디지털 풍화 예시](yeshi.jpg)

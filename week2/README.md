@@ -46,4 +46,4 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 ## 채점 기준
 - metric은 accuracy를 사용합니다. (app.py의 metric() 메소드 참고)
-- accuracy가 80% 이상이어야 합니다.
+- accuracy가 0.8 이상이어야 합니다.

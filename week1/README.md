@@ -13,6 +13,14 @@
 
 하나는 어떤 사람의 키를 알면 그 사람의 몸무게를 예측할 수 있다고 생각을 하였다. 하나를 도와 사람의 몸무게를 예측하는 인공지능을 만들어보자!
 
+## 강의 영상
+- [01.Overview](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=1)
+- [02.Linear Model](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=2)
+- [03.Gradient Descent](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=3)
+- [04.Backpropagation and Autograd](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=4)
+- [05.Linear Regression in Pytorch way](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=5)
+- [06.Logistic Regression](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=6)
+
 ## Dataset
 Dataset은 **weight-height.csv** 을 사용합니다.  
 

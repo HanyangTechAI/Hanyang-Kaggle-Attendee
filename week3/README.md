@@ -13,14 +13,17 @@ Dataset은 CIFAR-10을 사용합니다. 하지만 이미지에 임의의 노이�
 
 CIFAR-10은 다음의 코드를 이용하여 받을 수 있습니다.
 
-```
+```python
+from torchvision import dataset
+from torchvision import transforms
+
 train_dataset = CIFAR10(root='./data', train=True, download=True, 
     transform=transforms.ToTensor())
 ```
 
 ## Data Format 설명
 채점에 사용되는 app.py - run 메소드의 input과 output 텐서의 shape는 다음과 같습니다.
-- **Input Shape** [batch_size, rgb_channel, image_width, image_height]
+- **Input Shape** [batch_size, rgb_channel(3), image_width(32), image_height(32)]
 - **Output Shape** [batch_size, num_classes(10)]
 
 *반드시 상기된 형식을 준수해주세요. 형식이 다른 경우 0점 처리됩니다.*

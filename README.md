@@ -13,7 +13,7 @@
 
 	example) ```Hanyang-Kaggle-Attendee-2019000000-홍길동```
 
-3. 저희가 제시해드린 구글 드라이버 폴더에 압축후 업로드 해주십시오
+3. ```hai.studygroup@gmail.com``` 다음 이메일 주소에 압축파일을 전송해주세요.
 
 **주의 사항**
 

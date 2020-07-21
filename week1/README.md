@@ -31,7 +31,7 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-data = pd.open_csv("weight-height.csv")
+data = pd.read_csv("weight-height.csv")
 
 X, y =  data['Height'], data['Weight']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -40,10 +40,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 ## Data Format 설명
 채점에 사용되는 app.py - run 메소드의 input과 output 텐서의 shape는 다음과 같습니다.
 - **Input Shape** [batch_size, height(1)]
-- **Output Shape** [batch_size, logit(3)]
+- **Output Shape** [batch_size, weight(1)]
 
 *반드시 상기된 형식을 준수해주세요. 형식이 다른 경우 0점 처리됩니다.*
 
 ## 채점 기준
-- metric은 accuracy를 사용합니다. (app.py의 metric() 메소드 참고)
-- accuracy가 70% 이상이어야 합니다.
+- metric은 mse(mean squared error)를 사용합니다. (app.py의 metric() 메소드 참고)
+- mse가 8 이하여야 합니다.

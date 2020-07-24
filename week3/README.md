@@ -14,10 +14,10 @@ Dataset은 CIFAR-10을 사용합니다. 하지만 이미지에 임의의 노이�
 CIFAR-10은 다음의 코드를 이용하여 받을 수 있습니다.
 
 ```python
-from torchvision import dataset
+from torchvision import datasets
 from torchvision import transforms
 
-train_dataset = CIFAR10(root='./data', train=True, download=True, 
+train_dataset = datasets.CIFAR10(root='./data', train=True, download=True, 
     transform=transforms.ToTensor())
 ```
 

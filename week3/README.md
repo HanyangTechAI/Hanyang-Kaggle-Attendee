@@ -30,4 +30,4 @@ train_dataset = datasets.CIFAR10(root='./data', train=True, download=True,
 
 ## 채점 기준
 - metric은 accuracy를 사용합니다. (app.py의 metric() 메소드 참고)
-- accuracy가 0.6 이상이어야 합니다.
+- accuracy가 0.5 이상이어야 합니다.

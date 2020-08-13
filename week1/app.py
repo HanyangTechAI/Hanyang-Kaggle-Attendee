@@ -4,7 +4,7 @@ class SubmittedApp:
     def __init__(self):
         pass
 
-    def run(input_tensor: torch.Tensor) -> torch.Tensor:
+    def run(self, input_tensor: torch.Tensor) -> torch.Tensor:
         """Main Run Method for scoring system
         :param input_tensor: (torch.Tensor) [batchsize, height(1)]
         :return: (torch.Tensor) [batchsize, weight(1)]

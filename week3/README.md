@@ -5,7 +5,7 @@
 
 ## 강의영상
 - [Basic CNN](https://www.youtube.com/watch?v=LgFNRIFxuUo&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=10)
-- [Advanced CNN](https://www.youtube.com/watch?v=LgFNRIFxuUo&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=11)
+- [Advanced CNN](https://www.youtube.com/watch?v=hqYfqNAQIjE&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=11)
 
 ## Dataset
 Dataset은 CIFAR-10을 사용합니다. 하지만 이미지에 임의의 노이즈가 섞여있습니다.  
